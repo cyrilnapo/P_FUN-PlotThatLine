@@ -40,7 +40,6 @@
             viewData.Name = "viewData";
             viewData.Size = new Size(705, 423);
             viewData.TabIndex = 0;
-            viewData.Load += viewData_Load;
             // 
             // Form1
             // 
