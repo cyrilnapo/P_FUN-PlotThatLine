@@ -27,14 +27,16 @@ namespace PlotThatLine
             //Personnalisation
             scatter.MarkerSize = 0; // taille des points
             scatter.Color = Color.Orange; //couleur du tracé
+            scatter.Label = "Ethereum";
             viewData.Plot.Style(Style.Gray2);
 
             // titres
             viewData.Plot.Title("Prix de l'Ethereum");
             viewData.Plot.XLabel("Date");
             viewData.Plot.YLabel("Prix (USD)");
+            viewData.Plot.Legend();
 
-           
+
             viewData.Refresh();
 
 

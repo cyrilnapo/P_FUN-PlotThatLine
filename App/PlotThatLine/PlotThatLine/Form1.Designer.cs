@@ -33,10 +33,12 @@
             // 
             // viewData
             // 
-            viewData.Location = new Point(13, 12);
+            viewData.AutoSize = true;
+            viewData.Dock = DockStyle.Fill;
+            viewData.Location = new Point(0, 0);
             viewData.Margin = new Padding(4, 3, 4, 3);
             viewData.Name = "viewData";
-            viewData.Size = new Size(1138, 653);
+            viewData.Size = new Size(705, 423);
             viewData.TabIndex = 0;
             viewData.Load += viewData_Load;
             // 
@@ -45,11 +47,12 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(24, 20, 28);
-            ClientSize = new Size(1164, 677);
+            ClientSize = new Size(705, 423);
             Controls.Add(viewData);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
