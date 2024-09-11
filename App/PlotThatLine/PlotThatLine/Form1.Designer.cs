@@ -29,24 +29,51 @@
         private void InitializeComponent()
         {
             viewData = new ScottPlot.FormsPlot();
+            ethCheck = new CheckBox();
+            btcChek = new CheckBox();
             SuspendLayout();
             // 
             // viewData
             // 
+            viewData.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             viewData.AutoSize = true;
-            viewData.Dock = DockStyle.Fill;
-            viewData.Location = new Point(0, 0);
+            viewData.Location = new Point(40, 100);
             viewData.Margin = new Padding(4, 3, 4, 3);
             viewData.Name = "viewData";
             viewData.Size = new Size(705, 423);
             viewData.TabIndex = 0;
+            // 
+            // ethCheck
+            // 
+            ethCheck.AutoSize = true;
+            ethCheck.ForeColor = Color.White;
+            ethCheck.Location = new Point(120, 38);
+            ethCheck.Name = "ethCheck";
+            ethCheck.Size = new Size(77, 19);
+            ethCheck.TabIndex = 1;
+            ethCheck.Text = "Ethereum";
+            ethCheck.UseVisualStyleBackColor = true;
+            // 
+            // btcChek
+            // 
+            btcChek.AutoSize = true;
+            btcChek.BackColor = Color.Transparent;
+            btcChek.ForeColor = Color.White;
+            btcChek.Location = new Point(120, 63);
+            btcChek.Name = "btcChek";
+            btcChek.Size = new Size(63, 19);
+            btcChek.TabIndex = 2;
+            btcChek.Text = "Bitcoin";
+            btcChek.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(24, 20, 28);
-            ClientSize = new Size(705, 423);
+            ClientSize = new Size(787, 535);
+            Controls.Add(btcChek);
+            Controls.Add(ethCheck);
             Controls.Add(viewData);
             Name = "Form1";
             Text = "Form1";
@@ -57,5 +84,7 @@
         #endregion
 
         private ScottPlot.FormsPlot viewData;
+        private CheckBox ethCheck;
+        private CheckBox btcChek;
     }
 }
