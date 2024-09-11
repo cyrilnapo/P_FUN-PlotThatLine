@@ -38,8 +38,8 @@ namespace PlotThatLine
             btcCurve = statsManager.PlotData(dataBTC, "Bitcoin", Color.IndianRed);
             avaxCurve = statsManager.PlotData(dataAVAX, "Avalanche", Color.BlueViolet);
             bnbCurve = statsManager.PlotData(dataBNB, "BNB", Color.GreenYellow);
-            xrpCurve = statsManager.PlotData(dataXRP, "XRP", Color.MistyRose);
-            solCurve = statsManager.PlotData(dataSOL, "Solana", Color.Red);
+            xrpCurve = statsManager.PlotData(dataXRP, "XRP", Color.Green);
+            solCurve = statsManager.PlotData(dataSOL, "Solana", Color.Blue);
 
             viewData.Refresh();
         }

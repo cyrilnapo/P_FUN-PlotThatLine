@@ -17,6 +17,7 @@ namespace PlotThatLine
             plot.Title("Prix des Cryptomonnaies");
             plot.XLabel("Date");
             plot.YLabel("Prix (USD)");
+            plot.YAxis.SetBoundary(-.1);
         }
 
         public ScatterPlot PlotData(CryptoData data, string label, Color color)
