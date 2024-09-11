@@ -4,37 +4,52 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
+using ScottPlot.Plottable;
 
 namespace PlotThatLine
 {
     public partial class Form1 : Form
     {
         private PlotManager statsManager;
+        private ScatterPlot ethCurve;
+        private ScatterPlot btcCurve;
+        private ScatterPlot avaxCurve;
+        private ScatterPlot bnbCurve;
+        private ScatterPlot xrpCurve;
+        private ScatterPlot solCurve;
+
 
         public Form1()
         {
             InitializeComponent();
 
-            //init cadre de données
             statsManager = new PlotManager(viewData.Plot);
 
-            // recupere données ethereum et bictoin
-            var dataETH = CryptoData.LoadData(@"C:\Users\pt63blc\Documents\GitHub\P_FUN-PlotThatLine\Datas\ethereum.csv");
-            var dataBTC = CryptoData.LoadData(@"C:\Users\pt63blc\Documents\GitHub\P_FUN-PlotThatLine\Datas\bitcoin.csv");
+            // importe les données
+            var dataETH = CryptoData.LoadData(@"Datas\ethereum.csv");
+            var dataBTC = CryptoData.LoadData(@"Datas\bitcoin.csv");
+            var dataAVAX = CryptoData.LoadData(@"Datas\avalanche.csv");
+            var dataBNB = CryptoData.LoadData(@"Datas\BNB.csv");
+            var dataXRP = CryptoData.LoadData(@"Datas\XRP.csv");
+            var dataSOL = CryptoData.LoadData(@"Datas\solana.csv");
 
-            // ajout des courbes au graphique
-            statsManager.PlotData(dataETH, "Ethereum", System.Drawing.Color.Orange);
-            statsManager.PlotData(dataBTC, "Bitcoin", System.Drawing.Color.DarkGreen);
+            // ajoute les courbes
+            ethCurve = statsManager.PlotData(dataETH, "Ethereum", Color.Orange);
+            btcCurve = statsManager.PlotData(dataBTC, "Bitcoin", Color.IndianRed);
+            avaxCurve = statsManager.PlotData(dataAVAX, "Avalanche", Color.BlueViolet);
+            bnbCurve = statsManager.PlotData(dataBNB, "BNB", Color.GreenYellow);
+            xrpCurve = statsManager.PlotData(dataXRP, "XRP", Color.MistyRose);
+            solCurve = statsManager.PlotData(dataSOL, "Solana", Color.Red);
 
-            
             viewData.Refresh();
-
-
         }
 
-        private void ethCheck_CheckedChanged(object sender, EventArgs e)
+        private void ToggleCurveVisibility(CheckBox checkBox, ScatterPlot curve)
         {
-
+            curve.IsVisible = checkBox.Checked;  // Modifie la visibilité en fonction de l'état de la checkbox
+            viewData.Refresh();  // Rafraîchir le graphique
         }
+
+
     }
 }

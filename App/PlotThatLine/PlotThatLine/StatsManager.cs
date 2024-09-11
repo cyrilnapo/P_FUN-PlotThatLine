@@ -1,4 +1,5 @@
 ﻿using ScottPlot;
+using ScottPlot.Plottable;
 using System;
 using System.Drawing;
 
@@ -18,13 +19,14 @@ namespace PlotThatLine
             plot.YLabel("Prix (USD)");
         }
 
-        public void PlotData(CryptoData data, string label, Color color)
+        public ScatterPlot PlotData(CryptoData data, string label, Color color)
         {
             var scatter = plot.AddScatter(data.Dates.Select(x => x.ToOADate()).ToArray(), data.Prices);
             scatter.MarkerSize = 0;
             scatter.Color = color;
             scatter.Label = label;
             plot.Legend();
+            return scatter;
         }
     }
 }
