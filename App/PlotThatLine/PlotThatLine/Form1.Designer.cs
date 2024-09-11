@@ -46,6 +46,8 @@
             // ethCheck
             // 
             ethCheck.AutoSize = true;
+            ethCheck.Checked = true;
+            ethCheck.CheckState = CheckState.Checked;
             ethCheck.ForeColor = Color.White;
             ethCheck.Location = new Point(120, 38);
             ethCheck.Name = "ethCheck";
@@ -53,6 +55,7 @@
             ethCheck.TabIndex = 1;
             ethCheck.Text = "Ethereum";
             ethCheck.UseVisualStyleBackColor = true;
+            ethCheck.CheckedChanged += ethCheck_CheckedChanged;
             // 
             // btcChek
             // 

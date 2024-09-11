@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{39ED0C69-98A7-4EF6-B5F1-B52FC5F02471}|PlotThatLine\\PlotThatLine.csproj|c:\\users\\pt63blc\\documents\\github\\p_fun-plotthatline\\app\\plotthatline\\plotthatline\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39ED0C69-98A7-4EF6-B5F1-B52FC5F02471}|PlotThatLine\\PlotThatLine.csproj|solutionrelative:plotthatline\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{39ED0C69-98A7-4EF6-B5F1-B52FC5F02471}|PlotThatLine\\PlotThatLine.csproj|c:\\users\\pt63blc\\documents\\github\\p_fun-plotthatline\\app\\plotthatline\\plotthatline\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{39ED0C69-98A7-4EF6-B5F1-B52FC5F02471}|PlotThatLine\\PlotThatLine.csproj|solutionrelative:plotthatline\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39ED0C69-98A7-4EF6-B5F1-B52FC5F02471}|PlotThatLine\\PlotThatLine.csproj|c:\\users\\pt63blc\\documents\\github\\p_fun-plotthatline\\app\\plotthatline\\plotthatline\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39ED0C69-98A7-4EF6-B5F1-B52FC5F02471}|PlotThatLine\\PlotThatLine.csproj|solutionrelative:plotthatline\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39ED0C69-98A7-4EF6-B5F1-B52FC5F02471}|PlotThatLine\\PlotThatLine.csproj|c:\\users\\pt63blc\\documents\\github\\p_fun-plotthatline\\app\\plotthatline\\plotthatline\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39ED0C69-98A7-4EF6-B5F1-B52FC5F02471}|PlotThatLine\\PlotThatLine.csproj|solutionrelative:plotthatline\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39ED0C69-98A7-4EF6-B5F1-B52FC5F02471}|PlotThatLine\\PlotThatLine.csproj|c:\\users\\pt63blc\\documents\\github\\p_fun-plotthatline\\app\\plotthatline\\plotthatline\\cryptodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39ED0C69-98A7-4EF6-B5F1-B52FC5F02471}|PlotThatLine\\PlotThatLine.csproj|solutionrelative:plotthatline\\cryptodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39ED0C69-98A7-4EF6-B5F1-B52FC5F02471}|PlotThatLine\\PlotThatLine.csproj|c:\\users\\pt63blc\\documents\\github\\p_fun-plotthatline\\app\\plotthatline\\plotthatline\\statsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39ED0C69-98A7-4EF6-B5F1-B52FC5F02471}|PlotThatLine\\PlotThatLine.csproj|solutionrelative:plotthatline\\statsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,37 +26,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\PlotThatLine\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "PlotThatLine\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\PlotThatLine\\Form1.Designer.cs",
-              "RelativeToolTip": "PlotThatLine\\Form1.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "StatsManager.cs",
+              "DocumentMoniker": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\PlotThatLine\\StatsManager.cs",
+              "RelativeDocumentMoniker": "PlotThatLine\\StatsManager.cs",
+              "ToolTip": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\PlotThatLine\\StatsManager.cs",
+              "RelativeToolTip": "PlotThatLine\\StatsManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T14:28:28.769Z",
+              "WhenOpened": "2024-09-11T11:36:43.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "CryptoData.cs",
+              "DocumentMoniker": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\PlotThatLine\\CryptoData.cs",
+              "RelativeDocumentMoniker": "PlotThatLine\\CryptoData.cs",
+              "ToolTip": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\PlotThatLine\\CryptoData.cs",
+              "RelativeToolTip": "PlotThatLine\\CryptoData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T11:36:01.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\PlotThatLine\\Form1.cs",
               "RelativeDocumentMoniker": "PlotThatLine\\Form1.cs",
               "ToolTip": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\PlotThatLine\\Form1.cs",
               "RelativeToolTip": "PlotThatLine\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAVAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T12:23:20.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Conception]",
               "DocumentMoniker": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\PlotThatLine\\Form1.cs",
               "RelativeDocumentMoniker": "PlotThatLine\\Form1.cs",
