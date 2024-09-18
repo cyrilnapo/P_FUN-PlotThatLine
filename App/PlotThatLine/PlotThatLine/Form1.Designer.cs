@@ -35,6 +35,7 @@
             solCheck = new CheckBox();
             bnbCheck = new CheckBox();
             avaxCheck = new CheckBox();
+            clearBtn = new Button();
             SuspendLayout();
             // 
             // viewData
@@ -136,12 +137,24 @@
             avaxCheck.Text = "Avalanche";
             avaxCheck.UseVisualStyleBackColor = false;
             // 
+            // clearBtn
+            // 
+            clearBtn.Font = new Font("Segoe UI", 7F);
+            clearBtn.Location = new Point(41, 47);
+            clearBtn.Name = "clearBtn";
+            clearBtn.Size = new Size(34, 30);
+            clearBtn.TabIndex = 7;
+            clearBtn.Text = "Clear";
+            clearBtn.UseVisualStyleBackColor = true;
+            clearBtn.Click += clearBtn_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(24, 20, 28);
             ClientSize = new Size(787, 535);
+            Controls.Add(clearBtn);
             Controls.Add(avaxCheck);
             Controls.Add(bnbCheck);
             Controls.Add(solCheck);
@@ -164,5 +177,6 @@
         private CheckBox solCheck;
         private CheckBox bnbCheck;
         private CheckBox avaxCheck;
+        private Button clearBtn;
     }
 }

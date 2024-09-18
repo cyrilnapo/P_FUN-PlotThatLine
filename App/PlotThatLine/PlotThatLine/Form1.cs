@@ -58,6 +58,15 @@ namespace PlotThatLine
             viewData.Refresh();
         }
 
-        
+        private void clearBtn_Click(object sender, EventArgs e)
+        {
+            ethCheck.Checked = false;
+            avaxCheck.Checked = false;
+            bnbCheck.Checked = false;
+            xrpCheck.Checked = false;
+            solCheck.Checked = false;
+            btcCheck.Checked = false;
+
+        }
     }
 }

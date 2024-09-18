@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlotThatLine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21118215e53986c00089906c682a62b1ef0d475a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3a9f0f0b13897d36a04f166461b6a24f85f9395")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlotThatLine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlotThatLine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
