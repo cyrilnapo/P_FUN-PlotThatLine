@@ -36,6 +36,10 @@
             bnbCheck = new CheckBox();
             avaxCheck = new CheckBox();
             clearBtn = new Button();
+            dateFromPicker = new DateTimePicker();
+            dateToPicker = new DateTimePicker();
+            label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // viewData
@@ -55,7 +59,7 @@
             ethCheck.CheckState = CheckState.Checked;
             ethCheck.Cursor = Cursors.Hand;
             ethCheck.ForeColor = Color.White;
-            ethCheck.Location = new Point(88, 30);
+            ethCheck.Location = new Point(169, 30);
             ethCheck.Name = "ethCheck";
             ethCheck.Size = new Size(77, 19);
             ethCheck.TabIndex = 1;
@@ -70,7 +74,7 @@
             btcCheck.CheckState = CheckState.Checked;
             btcCheck.Cursor = Cursors.Hand;
             btcCheck.ForeColor = Color.White;
-            btcCheck.Location = new Point(88, 55);
+            btcCheck.Location = new Point(169, 55);
             btcCheck.Name = "btcCheck";
             btcCheck.Size = new Size(63, 19);
             btcCheck.TabIndex = 2;
@@ -85,7 +89,7 @@
             xrpCheck.CheckState = CheckState.Checked;
             xrpCheck.Cursor = Cursors.Hand;
             xrpCheck.ForeColor = Color.White;
-            xrpCheck.Location = new Point(88, 80);
+            xrpCheck.Location = new Point(169, 80);
             xrpCheck.Name = "xrpCheck";
             xrpCheck.Size = new Size(47, 19);
             xrpCheck.TabIndex = 3;
@@ -100,7 +104,7 @@
             solCheck.CheckState = CheckState.Checked;
             solCheck.Cursor = Cursors.Hand;
             solCheck.ForeColor = Color.White;
-            solCheck.Location = new Point(171, 30);
+            solCheck.Location = new Point(252, 30);
             solCheck.Name = "solCheck";
             solCheck.Size = new Size(61, 19);
             solCheck.TabIndex = 4;
@@ -115,7 +119,7 @@
             bnbCheck.CheckState = CheckState.Checked;
             bnbCheck.Cursor = Cursors.Hand;
             bnbCheck.ForeColor = Color.White;
-            bnbCheck.Location = new Point(171, 55);
+            bnbCheck.Location = new Point(252, 55);
             bnbCheck.Name = "bnbCheck";
             bnbCheck.Size = new Size(49, 19);
             bnbCheck.TabIndex = 5;
@@ -130,7 +134,7 @@
             avaxCheck.CheckState = CheckState.Checked;
             avaxCheck.Cursor = Cursors.Hand;
             avaxCheck.ForeColor = Color.White;
-            avaxCheck.Location = new Point(171, 80);
+            avaxCheck.Location = new Point(252, 80);
             avaxCheck.Name = "avaxCheck";
             avaxCheck.Size = new Size(81, 19);
             avaxCheck.TabIndex = 6;
@@ -139,14 +143,61 @@
             // 
             // clearBtn
             // 
+            clearBtn.Cursor = Cursors.Hand;
             clearBtn.Font = new Font("Segoe UI", 7F);
-            clearBtn.Location = new Point(41, 47);
+            clearBtn.Location = new Point(117, 30);
             clearBtn.Name = "clearBtn";
-            clearBtn.Size = new Size(34, 30);
+            clearBtn.Size = new Size(39, 65);
             clearBtn.TabIndex = 7;
             clearBtn.Text = "Clear";
             clearBtn.UseVisualStyleBackColor = true;
             clearBtn.Click += clearBtn_Click;
+            // 
+            // dateFromPicker
+            // 
+            dateFromPicker.CalendarFont = new Font("Segoe UI", 9F, FontStyle.Bold);
+            dateFromPicker.Cursor = Cursors.Hand;
+            dateFromPicker.Font = new Font("Segoe UI", 14F);
+            dateFromPicker.Format = DateTimePickerFormat.Short;
+            dateFromPicker.Location = new Point(576, 30);
+            dateFromPicker.Name = "dateFromPicker";
+            dateFromPicker.RightToLeft = RightToLeft.No;
+            dateFromPicker.Size = new Size(109, 32);
+            dateFromPicker.TabIndex = 8;
+            // 
+            // dateToPicker
+            // 
+            dateToPicker.CalendarFont = new Font("Segoe UI", 9F, FontStyle.Bold);
+            dateToPicker.Cursor = Cursors.Hand;
+            dateToPicker.Font = new Font("Segoe UI", 14F);
+            dateToPicker.Format = DateTimePickerFormat.Short;
+            dateToPicker.Location = new Point(576, 68);
+            dateToPicker.Name = "dateToPicker";
+            dateToPicker.RightToLeft = RightToLeft.No;
+            dateToPicker.Size = new Size(109, 32);
+            dateToPicker.TabIndex = 9;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 14F);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(509, 33);
+            label1.Name = "label1";
+            label1.Size = new Size(64, 25);
+            label1.TabIndex = 10;
+            label1.Text = "From :";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 14F);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(533, 70);
+            label2.Name = "label2";
+            label2.Size = new Size(40, 25);
+            label2.TabIndex = 11;
+            label2.Text = "To :";
             // 
             // Form1
             // 
@@ -154,6 +205,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(24, 20, 28);
             ClientSize = new Size(787, 535);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(dateToPicker);
+            Controls.Add(dateFromPicker);
             Controls.Add(clearBtn);
             Controls.Add(avaxCheck);
             Controls.Add(bnbCheck);
@@ -178,5 +233,9 @@
         private CheckBox bnbCheck;
         private CheckBox avaxCheck;
         private Button clearBtn;
+        private DateTimePicker dateFromPicker;
+        private DateTimePicker dateToPicker;
+        private Label label1;
+        private Label label2;
     }
 }
