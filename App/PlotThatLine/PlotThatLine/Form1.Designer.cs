@@ -52,14 +52,14 @@
             ethCheck.AutoSize = true;
             ethCheck.Checked = true;
             ethCheck.CheckState = CheckState.Checked;
+            ethCheck.Cursor = Cursors.Hand;
             ethCheck.ForeColor = Color.White;
-            ethCheck.Location = new Point(88, 12);
+            ethCheck.Location = new Point(88, 30);
             ethCheck.Name = "ethCheck";
             ethCheck.Size = new Size(77, 19);
             ethCheck.TabIndex = 1;
             ethCheck.Text = "Ethereum";
             ethCheck.UseVisualStyleBackColor = true;
-            ethCheck.CheckedChanged += (s, e) => ToggleCurveVisibility(ethCheck, ethCurve);
             // 
             // btcCheck
             // 
@@ -67,14 +67,14 @@
             btcCheck.BackColor = Color.Transparent;
             btcCheck.Checked = true;
             btcCheck.CheckState = CheckState.Checked;
+            btcCheck.Cursor = Cursors.Hand;
             btcCheck.ForeColor = Color.White;
-            btcCheck.Location = new Point(88, 37);
+            btcCheck.Location = new Point(88, 55);
             btcCheck.Name = "btcCheck";
             btcCheck.Size = new Size(63, 19);
             btcCheck.TabIndex = 2;
             btcCheck.Text = "Bitcoin";
             btcCheck.UseVisualStyleBackColor = false;
-            btcCheck.CheckedChanged += (s, e) => ToggleCurveVisibility(btcCheck, btcCurve);
             // 
             // xrpCheck
             // 
@@ -82,15 +82,14 @@
             xrpCheck.BackColor = Color.Transparent;
             xrpCheck.Checked = true;
             xrpCheck.CheckState = CheckState.Checked;
+            xrpCheck.Cursor = Cursors.Hand;
             xrpCheck.ForeColor = Color.White;
-            xrpCheck.Location = new Point(88, 62);
+            xrpCheck.Location = new Point(88, 80);
             xrpCheck.Name = "xrpCheck";
             xrpCheck.Size = new Size(47, 19);
             xrpCheck.TabIndex = 3;
             xrpCheck.Text = "XRP";
             xrpCheck.UseVisualStyleBackColor = false;
-            xrpCheck.CheckedChanged += (s, e) => ToggleCurveVisibility(xrpCheck, xrpCurve);
-
             // 
             // solCheck
             // 
@@ -98,15 +97,14 @@
             solCheck.BackColor = Color.Transparent;
             solCheck.Checked = true;
             solCheck.CheckState = CheckState.Checked;
+            solCheck.Cursor = Cursors.Hand;
             solCheck.ForeColor = Color.White;
-            solCheck.Location = new Point(171, 12);
+            solCheck.Location = new Point(171, 30);
             solCheck.Name = "solCheck";
             solCheck.Size = new Size(61, 19);
             solCheck.TabIndex = 4;
             solCheck.Text = "Solana";
             solCheck.UseVisualStyleBackColor = false;
-            solCheck.CheckedChanged += (s, e) => ToggleCurveVisibility(solCheck, solCurve);
-
             // 
             // bnbCheck
             // 
@@ -114,15 +112,14 @@
             bnbCheck.BackColor = Color.Transparent;
             bnbCheck.Checked = true;
             bnbCheck.CheckState = CheckState.Checked;
+            bnbCheck.Cursor = Cursors.Hand;
             bnbCheck.ForeColor = Color.White;
-            bnbCheck.Location = new Point(171, 37);
+            bnbCheck.Location = new Point(171, 55);
             bnbCheck.Name = "bnbCheck";
             bnbCheck.Size = new Size(49, 19);
             bnbCheck.TabIndex = 5;
             bnbCheck.Text = "BNB";
             bnbCheck.UseVisualStyleBackColor = false;
-            bnbCheck.CheckedChanged += (s, e) => ToggleCurveVisibility(bnbCheck, bnbCurve);
-
             // 
             // avaxCheck
             // 
@@ -130,15 +127,14 @@
             avaxCheck.BackColor = Color.Transparent;
             avaxCheck.Checked = true;
             avaxCheck.CheckState = CheckState.Checked;
+            avaxCheck.Cursor = Cursors.Hand;
             avaxCheck.ForeColor = Color.White;
-            avaxCheck.Location = new Point(171, 62);
+            avaxCheck.Location = new Point(171, 80);
             avaxCheck.Name = "avaxCheck";
             avaxCheck.Size = new Size(81, 19);
             avaxCheck.TabIndex = 6;
             avaxCheck.Text = "Avalanche";
             avaxCheck.UseVisualStyleBackColor = false;
-            avaxCheck.CheckedChanged += (s, e) => ToggleCurveVisibility(avaxCheck, avaxCurve);
-
             // 
             // Form1
             // 

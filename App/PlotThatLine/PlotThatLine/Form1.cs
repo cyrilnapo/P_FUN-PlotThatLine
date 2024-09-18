@@ -18,7 +18,6 @@ namespace PlotThatLine
         private ScatterPlot xrpCurve;
         private ScatterPlot solCurve;
 
-
         public Form1()
         {
             InitializeComponent();
@@ -40,6 +39,14 @@ namespace PlotThatLine
             bnbCurve = statsManager.PlotData(dataBNB, "BNB", Color.GreenYellow);
             xrpCurve = statsManager.PlotData(dataXRP, "XRP", Color.Green);
             solCurve = statsManager.PlotData(dataSOL, "Solana", Color.Blue);
+
+            // lie toutes les checkboxs à la methode de visibilité
+            ethCheck.CheckedChanged += (s, e) => ToggleCurveVisibility(ethCheck, ethCurve);
+            btcCheck.CheckedChanged += (s, e) => ToggleCurveVisibility(btcCheck, btcCurve);
+            avaxCheck.CheckedChanged += (s, e) => ToggleCurveVisibility(avaxCheck, avaxCurve);
+            bnbCheck.CheckedChanged += (s, e) => ToggleCurveVisibility(bnbCheck, bnbCurve);
+            xrpCheck.CheckedChanged += (s, e) => ToggleCurveVisibility(xrpCheck, xrpCurve);
+            solCheck.CheckedChanged += (s, e) => ToggleCurveVisibility(solCheck, solCurve);
 
             viewData.Refresh();
         }
