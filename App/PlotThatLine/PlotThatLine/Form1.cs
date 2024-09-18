@@ -53,10 +53,11 @@ namespace PlotThatLine
 
         private void ToggleCurveVisibility(CheckBox checkBox, ScatterPlot curve)
         {
-            curve.IsVisible = checkBox.Checked;  // Modifie la visibilité en fonction de l'état de la checkbox
-            viewData.Refresh();  // Rafraîchir le graphique
+            curve.IsVisible = checkBox.Checked;
+            viewData.Plot.AxisAuto();
+            viewData.Refresh();
         }
 
-
+        
     }
 }
