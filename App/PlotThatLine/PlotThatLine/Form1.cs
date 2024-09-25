@@ -74,6 +74,19 @@ namespace PlotThatLine
             DateTime dateFrom = dateFromPicker.Value;
             DateTime dateTo = dateToPicker.Value;
 
+            // verifie que les dates sont différentes
+            if (dateFrom.Date == dateTo.Date)
+            {
+                MessageBox.Show("Les dates ne peuvent pas être le même jour", "Erreur de sélection de date", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (dateFrom.Date > dateTo.Date)
+            {
+                MessageBox.Show("La date de début ne peut pas être après la date de fin", "Erreur de sélection de date", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; 
+            }
+
             // converti en format compatible avec l'axe X
             double fromOADate = dateFrom.ToOADate();
             double toOADate = dateTo.ToOADate();
