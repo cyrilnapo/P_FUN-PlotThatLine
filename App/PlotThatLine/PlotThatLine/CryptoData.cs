@@ -23,7 +23,7 @@ namespace PlotThatLine
             string[] data = File.ReadAllLines(filePath);
 
             var dates = data.Skip(1).Select(x => DateTime.Parse(x.Split(',')[0])).ToArray();
-            var prices = data.Skip(1).Select(x => double.Parse(x.Split(',')[4], CultureInfo.InvariantCulture)).ToArray();
+            var prices = data.Skip(1).Select(x => double.Parse(x.Split(',')[4])).ToArray();
 
             return new CryptoData(dates, prices);
         }

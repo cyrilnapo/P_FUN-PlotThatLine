@@ -68,5 +68,19 @@ namespace PlotThatLine
             btcCheck.Checked = false;
 
         }
+
+        private void displayDatesBtn_Click(object sender, EventArgs e)
+        {
+            DateTime dateFrom = dateFromPicker.Value;
+            DateTime dateTo = dateToPicker.Value;
+
+            // converti en format compatible avec l'axe X
+            double fromOADate = dateFrom.ToOADate();
+            double toOADate = dateTo.ToOADate();
+
+            viewData.Plot.SetAxisLimits(xMin: fromOADate, xMax: toOADate);
+
+            viewData.Refresh();
+        }
     }
 }

@@ -40,6 +40,7 @@
             dateToPicker = new DateTimePicker();
             label1 = new Label();
             label2 = new Label();
+            displayDatesBtn = new Button();
             SuspendLayout();
             // 
             // viewData
@@ -199,12 +200,25 @@
             label2.TabIndex = 11;
             label2.Text = "To :";
             // 
+            // displayDatesBtn
+            // 
+            displayDatesBtn.Cursor = Cursors.Hand;
+            displayDatesBtn.Font = new Font("Segoe UI", 7F);
+            displayDatesBtn.Location = new Point(691, 51);
+            displayDatesBtn.Name = "displayDatesBtn";
+            displayDatesBtn.Size = new Size(44, 30);
+            displayDatesBtn.TabIndex = 12;
+            displayDatesBtn.Text = "Display";
+            displayDatesBtn.UseVisualStyleBackColor = true;
+            displayDatesBtn.Click += displayDatesBtn_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(24, 20, 28);
             ClientSize = new Size(787, 535);
+            Controls.Add(displayDatesBtn);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(dateToPicker);
@@ -237,5 +251,6 @@
         private DateTimePicker dateToPicker;
         private Label label1;
         private Label label2;
+        private Button displayDatesBtn;
     }
 }
