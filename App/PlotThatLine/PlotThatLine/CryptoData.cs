@@ -17,7 +17,11 @@ namespace PlotThatLine
             Dates = dates;
             Prices = prices;
         }
-
+        /// <summary>
+        /// Lit le fichier csv et sélectionne les données dont nous avons besoin
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <returns></returns>
         public static CryptoData LoadData(string filePath)
         {
             string[] data = File.ReadAllLines(filePath);

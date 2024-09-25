@@ -18,15 +18,22 @@ namespace PlotThatLine
             plot.XLabel("Date");
             plot.YLabel("Prix (USD)");
             plot.YAxis.SetBoundary(-.1);
+            plot.YAxis.TickLabelFormat(a => $"{a}$");
         }
-
+        /// <summary>
+        /// Ajoute la courbe au graphique avec sa couleur son label et ses données
+        /// </summary>
+        /// <param name="data"></param>
+        /// <param name="label"></param>
+        /// <param name="color"></param>
+        /// <returns></returns>
         public ScatterPlot PlotData(CryptoData data, string label, Color color)
         {
             var scatter = plot.AddScatter(data.Dates.Select(x => x.ToOADate()).ToArray(), data.Prices);
             scatter.MarkerSize = 0;
             scatter.Color = color;
             scatter.Label = label;
-            plot.Legend();
+            plot.Legend().Location = Alignment.UpperLeft;
             return scatter;
         }
     }

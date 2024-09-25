@@ -50,14 +50,22 @@ namespace PlotThatLine
 
             viewData.Refresh();
         }
-
+        /// <summary>
+        /// Gère les checkboxs et affichent les courbes voulues en fonction des cases
+        /// </summary>
+        /// <param name="checkBox"></param>
+        /// <param name="curve"></param>
         private void ToggleCurveVisibility(CheckBox checkBox, ScatterPlot curve)
         {
             curve.IsVisible = checkBox.Checked;
             viewData.Plot.AxisAuto();
             viewData.Refresh();
         }
-
+        /// <summary>
+        /// Réinitialise toutes les checkboxs en les décochants toutes
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void clearBtn_Click(object sender, EventArgs e)
         {
             ethCheck.Checked = false;
@@ -68,7 +76,11 @@ namespace PlotThatLine
             btcCheck.Checked = false;
 
         }
-
+        /// <summary>
+        /// Traite les dates entrées dans les selecteurs pour les définir comme limite du cadre
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void displayDatesBtn_Click(object sender, EventArgs e)
         {
             DateTime dateFrom = dateFromPicker.Value;
