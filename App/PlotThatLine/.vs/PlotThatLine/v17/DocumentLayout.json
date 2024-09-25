@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9EA1665B-7990-4DA7-8AEC-425BC21EB82F}|PlotThatLineTests\\PlotThatLineTests.csproj|c:\\users\\pt63blc\\documents\\github\\p_fun-plotthatline\\app\\plotthatline\\plotthatlinetests\\form1tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA1665B-7990-4DA7-8AEC-425BC21EB82F}|PlotThatLineTests\\PlotThatLineTests.csproj|solutionrelative:plotthatlinetests\\form1tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{39ED0C69-98A7-4EF6-B5F1-B52FC5F02471}|PlotThatLine\\PlotThatLine.csproj|c:\\users\\pt63blc\\documents\\github\\p_fun-plotthatline\\app\\plotthatline\\plotthatline\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{39ED0C69-98A7-4EF6-B5F1-B52FC5F02471}|PlotThatLine\\PlotThatLine.csproj|solutionrelative:plotthatline\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Form1Tests.cs",
+              "DocumentMoniker": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\PlotThatLineTests\\Form1Tests.cs",
+              "RelativeDocumentMoniker": "PlotThatLineTests\\Form1Tests.cs",
+              "ToolTip": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\PlotThatLineTests\\Form1Tests.cs",
+              "RelativeToolTip": "PlotThatLineTests\\Form1Tests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T12:08:59.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Conception]",
               "DocumentMoniker": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\PlotThatLine\\Form1.cs",
               "RelativeDocumentMoniker": "PlotThatLine\\Form1.cs",
@@ -42,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\PlotThatLine\\Form1.cs",
               "RelativeDocumentMoniker": "PlotThatLine\\Form1.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StatsManager.cs",
               "DocumentMoniker": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\PlotThatLine\\StatsManager.cs",
               "RelativeDocumentMoniker": "PlotThatLine\\StatsManager.cs",
@@ -63,12 +80,11 @@
               "RelativeToolTip": "PlotThatLine\\StatsManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T11:36:43.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T11:36:43.203Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CryptoData.cs",
               "DocumentMoniker": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\PlotThatLine\\CryptoData.cs",
               "RelativeDocumentMoniker": "PlotThatLine\\CryptoData.cs",
@@ -76,8 +92,7 @@
               "RelativeToolTip": "PlotThatLine\\CryptoData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T11:36:01.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T11:36:01.057Z"
             }
           ]
         }
