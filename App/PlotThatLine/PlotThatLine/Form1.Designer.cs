@@ -156,6 +156,7 @@
             // 
             // dateFromPicker
             // 
+            dateFromPicker.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             dateFromPicker.CalendarFont = new Font("Segoe UI", 9F, FontStyle.Bold);
             dateFromPicker.Cursor = Cursors.Hand;
             dateFromPicker.Font = new Font("Segoe UI", 14F);
@@ -168,6 +169,7 @@
             // 
             // dateToPicker
             // 
+            dateToPicker.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             dateToPicker.CalendarFont = new Font("Segoe UI", 9F, FontStyle.Bold);
             dateToPicker.Cursor = Cursors.Hand;
             dateToPicker.Font = new Font("Segoe UI", 14F);
@@ -180,6 +182,7 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14F);
             label1.ForeColor = Color.White;
@@ -191,6 +194,7 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 14F);
             label2.ForeColor = Color.White;
@@ -202,9 +206,12 @@
             // 
             // displayDatesBtn
             // 
+            displayDatesBtn.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             displayDatesBtn.Cursor = Cursors.Hand;
             displayDatesBtn.Font = new Font("Segoe UI", 7F);
             displayDatesBtn.Location = new Point(691, 51);
+            displayDatesBtn.MaximumSize = new Size(44, 30);
+            displayDatesBtn.MinimumSize = new Size(44, 30);
             displayDatesBtn.Name = "displayDatesBtn";
             displayDatesBtn.Size = new Size(44, 30);
             displayDatesBtn.TabIndex = 12;

@@ -1,0 +1,7 @@
+C:\Users\pt63blc\Desktop\PlotThatLine.pdb
+C:\Users\pt63blc\Desktop\D3DCompiler_47_cor3.dll
+C:\Users\pt63blc\Desktop\PenImc_cor3.dll
+C:\Users\pt63blc\Desktop\PresentationNative_cor3.dll
+C:\Users\pt63blc\Desktop\vcruntime140_cor3.dll
+C:\Users\pt63blc\Desktop\wpfgfx_cor3.dll
+C:\Users\pt63blc\Desktop\PlotThatLine.exe

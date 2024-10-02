@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "bVjOCzbaVwmhrjip+He9mVbORSNA2VqjLjKVcL3CD32d2v/r0k82nY3pTvUXK9qC60+baA4eyS8NLfkEFwooDA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pt63blc\\Documents\\GitHub\\P_FUN-PlotThatLine\\App\\PlotThatLine\\PlotThatLine\\PlotThatLine.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pt63blc\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.2\\microsoft.net.illink.tasks.8.0.2.nupkg.sha512",
+    "C:\\Users\\pt63blc\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.4\\microsoft.netcore.platforms.3.1.4.nupkg.sha512",
+    "C:\\Users\\pt63blc\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\pt63blc\\.nuget\\packages\\scottplot\\4.1.71\\scottplot.4.1.71.nupkg.sha512",
+    "C:\\Users\\pt63blc\\.nuget\\packages\\scottplot.winforms\\4.1.71\\scottplot.winforms.4.1.71.nupkg.sha512",
+    "C:\\Users\\pt63blc\\.nuget\\packages\\system.drawing.common\\4.7.2\\system.drawing.common.4.7.2.nupkg.sha512",
+    "C:\\Users\\pt63blc\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\pt63blc\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\8.0.2\\microsoft.netcore.app.runtime.win-x86.8.0.2.nupkg.sha512",
+    "C:\\Users\\pt63blc\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\8.0.2\\microsoft.windowsdesktop.app.runtime.win-x86.8.0.2.nupkg.sha512",
+    "C:\\Users\\pt63blc\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\8.0.2\\microsoft.aspnetcore.app.runtime.win-x86.8.0.2.nupkg.sha512",
+    "C:\\Users\\pt63blc\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\8.0.2\\microsoft.netcore.app.crossgen2.win-x64.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
