@@ -66,7 +66,7 @@ namespace PlotThatLine
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void clearBtn_Click(object sender, EventArgs e)
+        public void clearBtn_Click(object sender, EventArgs e)
         {
             ethCheck.Checked = false;
             avaxCheck.Checked = false;

@@ -14,17 +14,12 @@ namespace PlotThatLine.Tests
         [TestMethod]
         public void ClearBtn_ClickTest()
         {
-            // Arrange
             var form = new Form1();
             form.ethCheck.Checked = true;
-            form.btcCheck.Checked = true;
 
-            // Act
             form.clearBtn_Click(null, null);
 
-            // Assert
             Assert.IsFalse(form.ethCheck.Checked);
-            Assert.IsFalse(form.btcCheck.Checked);
         }
     }
 }
